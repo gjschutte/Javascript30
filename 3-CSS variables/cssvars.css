@@ -1,0 +1,31 @@
+:root {
+  --varColor: green;
+  --varBlur: 10px;
+  --varPadding: 10px;
+}
+
+body {
+  background-color: tan;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font: helvetica;
+  color: var(--varColor);
+  text-align: center;
+}
+
+img {
+  padding: var(--varPadding);
+  background: var(--varColor);
+  filter: blur(var(--varBlur));
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}

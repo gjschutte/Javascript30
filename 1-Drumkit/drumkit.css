@@ -1,0 +1,41 @@
+
+body {
+	background-color: SeaShell !important;
+  	font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+	text-align: center;
+	color: green;
+}
+
+#buttons {
+	font-size: 16px;
+	display: flex;
+	flex: 1;
+	height: 600px;
+	align-items: center;
+	justify-content: center;
+}
+
+.drumType {
+	font-size: 10px;
+	color: green;
+}
+
+button {
+	height: 60px;
+	width: 60px;
+	margin-top: 20px;
+	margin-left: 50px;
+	font-weight: bold;
+	border-radius: 10px;
+	box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+	outline: none;
+}
+
+button:active {
+  	transform: translate(0px, 3px);
+  	box-shadow: none;
+}
